@@ -1,0 +1,52 @@
+
+h2 {
+    margin-top: 40px !important;
+    margin-left: 220px;
+}
+
+.grupo-botones {
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+.educacion, .comercial {
+    height: 250px;
+    width: 300px;
+    margin-left: 10px;
+}
+
+/* bootstrap destruye mucho del css imagenes y/o tarjetas sin los col-sm */
+
+.contenedor-fotos {
+    margin-top: 40px;
+}
+
+.foto-1 {
+    display: inline-block;
+}
+
+.foto-2 {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.foto-3 {
+    display: inline-block;
+    margin-top: -40px;
+}
+
+
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
